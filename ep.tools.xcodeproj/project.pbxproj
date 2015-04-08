@@ -13,6 +13,20 @@
 			buildPhases = (
 			);
 			dependencies = (
+				2C84C5161AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C5181AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C51A1AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C51C1AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C51E1AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C5201AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C5221AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C5241AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C5261AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C5281AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C52A1AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C52C1AD5D14A007C4A94 /* PBXTargetDependency */,
+				2C84C45E1AD5CC95007C4A94 /* PBXTargetDependency */,
+				2C84C4601AD5CC95007C4A94 /* PBXTargetDependency */,
 				2C9B3C991A9E802F00E6921E /* PBXTargetDependency */,
 			);
 			name = EpToolsLib;
@@ -23,11 +37,165 @@
 /* Begin PBXBuildFile section */
 		2C6714B11AD4A0F7004A2ABD /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
 		2C6714B21AD4A140004A2ABD /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C6714B61AD4AD17004A2ABD /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C6714B91AD4AD17004A2ABD /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C6714BB1AD4AD17004A2ABD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C6714BC1AD4AD17004A2ABD /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C6714C51AD4B16A004A2ABD /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C6714C81AD4B16A004A2ABD /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C6714CA1AD4B16A004A2ABD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C6714CB1AD4B16A004A2ABD /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C4631AD5CCA1007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4661AD5CCA1007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4681AD5CCA1007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4691AD5CCA1007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C4721AD5CCF0007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4751AD5CCF0007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4771AD5CCF0007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4781AD5CCF0007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C4811AD5CD24007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4841AD5CD24007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4861AD5CD24007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4871AD5CD24007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C4901AD5CD7E007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4931AD5CD7E007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4951AD5CD7E007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4961AD5CD7E007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C49F1AD5CDB9007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4A21AD5CDB9007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4A41AD5CDB9007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4A51AD5CDB9007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C4AE1AD5CDE9007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4B11AD5CDE9007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4B31AD5CDE9007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4B41AD5CDE9007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C4BD1AD5CE2B007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4C01AD5CE2B007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4C21AD5CE2B007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4C31AD5CE2B007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C4CC1AD5CE63007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4CF1AD5CE63007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4D11AD5CE63007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4D21AD5CE63007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C4DB1AD5CEB8007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4DE1AD5CEB8007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4E01AD5CEB8007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4E11AD5CEB8007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C4EA1AD5CEF5007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4ED1AD5CEF5007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4EF1AD5CEF5007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4F01AD5CEF5007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C4F91AD5D0D3007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4FC1AD5D0D3007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C4FE1AD5D0D3007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C4FF1AD5D0D3007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
+		2C84C5081AD5D0F9007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C50B1AD5D0F9007C4A94 /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
+		2C84C50D1AD5D0F9007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
+		2C84C50E1AD5D0F9007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
 		2CCD1F7B1A9CCBB3001F137D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2CCD1F7C1A9CCBB3001F137D /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2C84C45D1AD5CC95007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6714B41AD4AD17004A2ABD;
+			remoteInfo = "<>";
+		};
+		2C84C45F1AD5CC95007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C6714C31AD4B16A004A2ABD;
+			remoteInfo = "><";
+		};
+		2C84C5151AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C4611AD5CCA1007C4A94;
+			remoteInfo = ep.decide;
+		};
+		2C84C5171AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C4701AD5CCF0007C4A94;
+			remoteInfo = "ep.midside~";
+		};
+		2C84C5191AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C47F1AD5CD24007C4A94;
+			remoteInfo = ep.multisplit;
+		};
+		2C84C51B1AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C48E1AD5CD7E007C4A94;
+			remoteInfo = "ep.pan~";
+		};
+		2C84C51D1AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C49D1AD5CDB9007C4A94;
+			remoteInfo = ep.polyinstance;
+		};
+		2C84C51F1AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C4AC1AD5CDE9007C4A94;
+			remoteInfo = ep.randmetro;
+		};
+		2C84C5211AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C4BB1AD5CE2B007C4A94;
+			remoteInfo = ep.random;
+		};
+		2C84C5231AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C4CA1AD5CE63007C4A94;
+			remoteInfo = ep.randout;
+		};
+		2C84C5251AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C4D91AD5CEB8007C4A94;
+			remoteInfo = ep.scale;
+		};
+		2C84C5271AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C4E81AD5CEF5007C4A94;
+			remoteInfo = ep.screensplit;
+		};
+		2C84C5291AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C4F71AD5D0D3007C4A94;
+			remoteInfo = "ep.selector~";
+		};
+		2C84C52B1AD5D14A007C4A94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C84C5061AD5D0F9007C4A94;
+			remoteInfo = "ep.xfade~";
+		};
 		2C9B3C981A9E802F00E6921E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
@@ -54,6 +222,20 @@
 		2C6714AF1AD4A0D5004A2ABD /* ep.xfade~.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ep.xfade~.c"; sourceTree = "<group>"; };
 		2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EP_EXTERNS.h; sourceTree = "<group>"; };
 		2C6714B31AD4A91C004A2ABD /* ep.selector~.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ep.selector~.c"; sourceTree = "<group>"; };
+		2C6714C11AD4AD17004A2ABD /* <>.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "<>.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6714D01AD4B16A004A2ABD /* ><.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "><.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C46E1AD5CCA1007C4A94 /* ep.decide.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ep.decide.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C47D1AD5CCF0007C4A94 /* ep.midside~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ep.midside~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C48C1AD5CD24007C4A94 /* ep.multisplit.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ep.multisplit.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C49B1AD5CD7E007C4A94 /* ep.pan~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ep.pan~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C4AA1AD5CDB9007C4A94 /* ep.polyinstance.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ep.polyinstance.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C4B91AD5CDE9007C4A94 /* ep.randmetro.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ep.randmetro.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C4C81AD5CE2B007C4A94 /* ep.random.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ep.random.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C4D71AD5CE63007C4A94 /* ep.randout.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ep.randout.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C4E61AD5CEB8007C4A94 /* ep.scale.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ep.scale.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C4F51AD5CEF5007C4A94 /* ep.screensplit.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ep.screensplit.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C5041AD5D0D3007C4A94 /* ep.selector~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ep.selector~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C84C5131AD5D0F9007C4A94 /* ep.xfade~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ep.xfade~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCD1F811A9CCBB3001F137D /* ep.catch.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ep.catch.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = EpToolsLibraryMax.xcconfig; sourceTree = "<group>"; };
 		2CE93334196EBA530079A368 /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "../ThirdParty/Max/c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = "<group>"; };
@@ -61,6 +243,132 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C6714BA1AD4AD17004A2ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6714BB1AD4AD17004A2ABD /* Accelerate.framework in Frameworks */,
+				2C6714BC1AD4AD17004A2ABD /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6714C91AD4B16A004A2ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6714CA1AD4B16A004A2ABD /* Accelerate.framework in Frameworks */,
+				2C6714CB1AD4B16A004A2ABD /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4671AD5CCA1007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4681AD5CCA1007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4691AD5CCA1007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4761AD5CCF0007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4771AD5CCF0007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4781AD5CCF0007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4851AD5CD24007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4861AD5CD24007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4871AD5CD24007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4941AD5CD7E007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4951AD5CD7E007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4961AD5CD7E007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4A31AD5CDB9007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4A41AD5CDB9007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4A51AD5CDB9007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4B21AD5CDE9007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4B31AD5CDE9007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4B41AD5CDE9007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4C11AD5CE2B007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4C21AD5CE2B007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4C31AD5CE2B007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4D01AD5CE63007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4D11AD5CE63007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4D21AD5CE63007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4DF1AD5CEB8007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4E01AD5CEB8007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4E11AD5CEB8007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4EE1AD5CEF5007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4EF1AD5CEF5007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4F01AD5CEF5007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4FD1AD5D0D3007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4FE1AD5D0D3007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C4FF1AD5D0D3007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C50C1AD5D0F9007C4A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C50D1AD5D0F9007C4A94 /* Accelerate.framework in Frameworks */,
+				2C84C50E1AD5D0F9007C4A94 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CCD1F7A1A9CCBB3001F137D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,6 +398,20 @@
 			isa = PBXGroup;
 			children = (
 				2CCD1F811A9CCBB3001F137D /* ep.catch.mxo */,
+				2C6714C11AD4AD17004A2ABD /* <>.mxo */,
+				2C6714D01AD4B16A004A2ABD /* ><.mxo */,
+				2C84C46E1AD5CCA1007C4A94 /* ep.decide.mxo */,
+				2C84C47D1AD5CCF0007C4A94 /* ep.midside~.mxo */,
+				2C84C48C1AD5CD24007C4A94 /* ep.multisplit.mxo */,
+				2C84C49B1AD5CD7E007C4A94 /* ep.pan~.mxo */,
+				2C84C4AA1AD5CDB9007C4A94 /* ep.polyinstance.mxo */,
+				2C84C4B91AD5CDE9007C4A94 /* ep.randmetro.mxo */,
+				2C84C4C81AD5CE2B007C4A94 /* ep.random.mxo */,
+				2C84C4D71AD5CE63007C4A94 /* ep.randout.mxo */,
+				2C84C4E61AD5CEB8007C4A94 /* ep.scale.mxo */,
+				2C84C4F51AD5CEF5007C4A94 /* ep.screensplit.mxo */,
+				2C84C5041AD5D0D3007C4A94 /* ep.selector~.mxo */,
+				2C84C5131AD5D0F9007C4A94 /* ep.xfade~.mxo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +442,118 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2C6714B51AD4AD17004A2ABD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6714B61AD4AD17004A2ABD /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6714C41AD4B16A004A2ABD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6714C51AD4B16A004A2ABD /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4621AD5CCA1007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4631AD5CCA1007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4711AD5CCF0007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4721AD5CCF0007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4801AD5CD24007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4811AD5CD24007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C48F1AD5CD7E007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4901AD5CD7E007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C49E1AD5CDB9007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C49F1AD5CDB9007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4AD1AD5CDE9007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4AE1AD5CDE9007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4BC1AD5CE2B007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4BD1AD5CE2B007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4CB1AD5CE63007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4CC1AD5CE63007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4DA1AD5CEB8007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4DB1AD5CEB8007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4E91AD5CEF5007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4EA1AD5CEF5007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4F81AD5D0D3007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4F91AD5D0D3007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C5071AD5D0F9007C4A94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C5081AD5D0F9007C4A94 /* EP_EXTERNS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CCD1F2A1A9CCBB3001F137D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,6 +565,272 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2C6714B41AD4AD17004A2ABD /* <> */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6714BE1AD4AD17004A2ABD /* Build configuration list for PBXNativeTarget "<>" */;
+			buildPhases = (
+				2C6714B51AD4AD17004A2ABD /* Headers */,
+				2C6714B71AD4AD17004A2ABD /* Resources */,
+				2C6714B81AD4AD17004A2ABD /* Sources */,
+				2C6714BA1AD4AD17004A2ABD /* Frameworks */,
+				2C6714BD1AD4AD17004A2ABD /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "<>";
+			productName = iterator;
+			productReference = 2C6714C11AD4AD17004A2ABD /* <>.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C6714C31AD4B16A004A2ABD /* >< */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C6714CD1AD4B16A004A2ABD /* Build configuration list for PBXNativeTarget "><" */;
+			buildPhases = (
+				2C6714C41AD4B16A004A2ABD /* Headers */,
+				2C6714C61AD4B16A004A2ABD /* Resources */,
+				2C6714C71AD4B16A004A2ABD /* Sources */,
+				2C6714C91AD4B16A004A2ABD /* Frameworks */,
+				2C6714CC1AD4B16A004A2ABD /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "><";
+			productName = iterator;
+			productReference = 2C6714D01AD4B16A004A2ABD /* ><.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C4611AD5CCA1007C4A94 /* ep.decide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C46B1AD5CCA1007C4A94 /* Build configuration list for PBXNativeTarget "ep.decide" */;
+			buildPhases = (
+				2C84C4621AD5CCA1007C4A94 /* Headers */,
+				2C84C4641AD5CCA1007C4A94 /* Resources */,
+				2C84C4651AD5CCA1007C4A94 /* Sources */,
+				2C84C4671AD5CCA1007C4A94 /* Frameworks */,
+				2C84C46A1AD5CCA1007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ep.decide;
+			productName = iterator;
+			productReference = 2C84C46E1AD5CCA1007C4A94 /* ep.decide.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C4701AD5CCF0007C4A94 /* ep.midside~ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C47A1AD5CCF0007C4A94 /* Build configuration list for PBXNativeTarget "ep.midside~" */;
+			buildPhases = (
+				2C84C4711AD5CCF0007C4A94 /* Headers */,
+				2C84C4731AD5CCF0007C4A94 /* Resources */,
+				2C84C4741AD5CCF0007C4A94 /* Sources */,
+				2C84C4761AD5CCF0007C4A94 /* Frameworks */,
+				2C84C4791AD5CCF0007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ep.midside~";
+			productName = iterator;
+			productReference = 2C84C47D1AD5CCF0007C4A94 /* ep.midside~.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C47F1AD5CD24007C4A94 /* ep.multisplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C4891AD5CD24007C4A94 /* Build configuration list for PBXNativeTarget "ep.multisplit" */;
+			buildPhases = (
+				2C84C4801AD5CD24007C4A94 /* Headers */,
+				2C84C4821AD5CD24007C4A94 /* Resources */,
+				2C84C4831AD5CD24007C4A94 /* Sources */,
+				2C84C4851AD5CD24007C4A94 /* Frameworks */,
+				2C84C4881AD5CD24007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ep.multisplit;
+			productName = iterator;
+			productReference = 2C84C48C1AD5CD24007C4A94 /* ep.multisplit.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C48E1AD5CD7E007C4A94 /* ep.pan~ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C4981AD5CD7E007C4A94 /* Build configuration list for PBXNativeTarget "ep.pan~" */;
+			buildPhases = (
+				2C84C48F1AD5CD7E007C4A94 /* Headers */,
+				2C84C4911AD5CD7E007C4A94 /* Resources */,
+				2C84C4921AD5CD7E007C4A94 /* Sources */,
+				2C84C4941AD5CD7E007C4A94 /* Frameworks */,
+				2C84C4971AD5CD7E007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ep.pan~";
+			productName = iterator;
+			productReference = 2C84C49B1AD5CD7E007C4A94 /* ep.pan~.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C49D1AD5CDB9007C4A94 /* ep.polyinstance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C4A71AD5CDB9007C4A94 /* Build configuration list for PBXNativeTarget "ep.polyinstance" */;
+			buildPhases = (
+				2C84C49E1AD5CDB9007C4A94 /* Headers */,
+				2C84C4A01AD5CDB9007C4A94 /* Resources */,
+				2C84C4A11AD5CDB9007C4A94 /* Sources */,
+				2C84C4A31AD5CDB9007C4A94 /* Frameworks */,
+				2C84C4A61AD5CDB9007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ep.polyinstance;
+			productName = iterator;
+			productReference = 2C84C4AA1AD5CDB9007C4A94 /* ep.polyinstance.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C4AC1AD5CDE9007C4A94 /* ep.randmetro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C4B61AD5CDE9007C4A94 /* Build configuration list for PBXNativeTarget "ep.randmetro" */;
+			buildPhases = (
+				2C84C4AD1AD5CDE9007C4A94 /* Headers */,
+				2C84C4AF1AD5CDE9007C4A94 /* Resources */,
+				2C84C4B01AD5CDE9007C4A94 /* Sources */,
+				2C84C4B21AD5CDE9007C4A94 /* Frameworks */,
+				2C84C4B51AD5CDE9007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ep.randmetro;
+			productName = iterator;
+			productReference = 2C84C4B91AD5CDE9007C4A94 /* ep.randmetro.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C4BB1AD5CE2B007C4A94 /* ep.random */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C4C51AD5CE2B007C4A94 /* Build configuration list for PBXNativeTarget "ep.random" */;
+			buildPhases = (
+				2C84C4BC1AD5CE2B007C4A94 /* Headers */,
+				2C84C4BE1AD5CE2B007C4A94 /* Resources */,
+				2C84C4BF1AD5CE2B007C4A94 /* Sources */,
+				2C84C4C11AD5CE2B007C4A94 /* Frameworks */,
+				2C84C4C41AD5CE2B007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ep.random;
+			productName = iterator;
+			productReference = 2C84C4C81AD5CE2B007C4A94 /* ep.random.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C4CA1AD5CE63007C4A94 /* ep.randout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C4D41AD5CE63007C4A94 /* Build configuration list for PBXNativeTarget "ep.randout" */;
+			buildPhases = (
+				2C84C4CB1AD5CE63007C4A94 /* Headers */,
+				2C84C4CD1AD5CE63007C4A94 /* Resources */,
+				2C84C4CE1AD5CE63007C4A94 /* Sources */,
+				2C84C4D01AD5CE63007C4A94 /* Frameworks */,
+				2C84C4D31AD5CE63007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ep.randout;
+			productName = iterator;
+			productReference = 2C84C4D71AD5CE63007C4A94 /* ep.randout.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C4D91AD5CEB8007C4A94 /* ep.scale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C4E31AD5CEB8007C4A94 /* Build configuration list for PBXNativeTarget "ep.scale" */;
+			buildPhases = (
+				2C84C4DA1AD5CEB8007C4A94 /* Headers */,
+				2C84C4DC1AD5CEB8007C4A94 /* Resources */,
+				2C84C4DD1AD5CEB8007C4A94 /* Sources */,
+				2C84C4DF1AD5CEB8007C4A94 /* Frameworks */,
+				2C84C4E21AD5CEB8007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ep.scale;
+			productName = iterator;
+			productReference = 2C84C4E61AD5CEB8007C4A94 /* ep.scale.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C4E81AD5CEF5007C4A94 /* ep.screensplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C4F21AD5CEF5007C4A94 /* Build configuration list for PBXNativeTarget "ep.screensplit" */;
+			buildPhases = (
+				2C84C4E91AD5CEF5007C4A94 /* Headers */,
+				2C84C4EB1AD5CEF5007C4A94 /* Resources */,
+				2C84C4EC1AD5CEF5007C4A94 /* Sources */,
+				2C84C4EE1AD5CEF5007C4A94 /* Frameworks */,
+				2C84C4F11AD5CEF5007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ep.screensplit;
+			productName = iterator;
+			productReference = 2C84C4F51AD5CEF5007C4A94 /* ep.screensplit.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C4F71AD5D0D3007C4A94 /* ep.selector~ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C5011AD5D0D3007C4A94 /* Build configuration list for PBXNativeTarget "ep.selector~" */;
+			buildPhases = (
+				2C84C4F81AD5D0D3007C4A94 /* Headers */,
+				2C84C4FA1AD5D0D3007C4A94 /* Resources */,
+				2C84C4FB1AD5D0D3007C4A94 /* Sources */,
+				2C84C4FD1AD5D0D3007C4A94 /* Frameworks */,
+				2C84C5001AD5D0D3007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ep.selector~";
+			productName = iterator;
+			productReference = 2C84C5041AD5D0D3007C4A94 /* ep.selector~.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2C84C5061AD5D0F9007C4A94 /* ep.xfade~ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C84C5101AD5D0F9007C4A94 /* Build configuration list for PBXNativeTarget "ep.xfade~" */;
+			buildPhases = (
+				2C84C5071AD5D0F9007C4A94 /* Headers */,
+				2C84C5091AD5D0F9007C4A94 /* Resources */,
+				2C84C50A1AD5D0F9007C4A94 /* Sources */,
+				2C84C50C1AD5D0F9007C4A94 /* Frameworks */,
+				2C84C50F1AD5D0F9007C4A94 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ep.xfade~";
+			productName = iterator;
+			productReference = 2C84C5131AD5D0F9007C4A94 /* ep.xfade~.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
 		2CCD1F291A9CCBB3001F137D /* ep.catch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CCD1F7E1A9CCBB3001F137D /* Build configuration list for PBXNativeTarget "ep.catch" */;
@@ -178,12 +878,124 @@
 			projectRoot = "";
 			targets = (
 				2C9B3C941A9E7F7700E6921E /* EpToolsLib */,
+				2C6714B41AD4AD17004A2ABD /* <> */,
+				2C6714C31AD4B16A004A2ABD /* >< */,
 				2CCD1F291A9CCBB3001F137D /* ep.catch */,
+				2C84C4611AD5CCA1007C4A94 /* ep.decide */,
+				2C84C4701AD5CCF0007C4A94 /* ep.midside~ */,
+				2C84C47F1AD5CD24007C4A94 /* ep.multisplit */,
+				2C84C48E1AD5CD7E007C4A94 /* ep.pan~ */,
+				2C84C49D1AD5CDB9007C4A94 /* ep.polyinstance */,
+				2C84C4AC1AD5CDE9007C4A94 /* ep.randmetro */,
+				2C84C4BB1AD5CE2B007C4A94 /* ep.random */,
+				2C84C4CA1AD5CE63007C4A94 /* ep.randout */,
+				2C84C4D91AD5CEB8007C4A94 /* ep.scale */,
+				2C84C4E81AD5CEF5007C4A94 /* ep.screensplit */,
+				2C84C4F71AD5D0D3007C4A94 /* ep.selector~ */,
+				2C84C5061AD5D0F9007C4A94 /* ep.xfade~ */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2C6714B71AD4AD17004A2ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6714C61AD4B16A004A2ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4641AD5CCA1007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4731AD5CCF0007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4821AD5CD24007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4911AD5CD7E007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4A01AD5CDB9007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4AF1AD5CDE9007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4BE1AD5CE2B007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4CD1AD5CE63007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4DC1AD5CEB8007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4EB1AD5CEF5007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4FA1AD5D0D3007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C5091AD5D0F9007C4A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CCD1F4A1A9CCBB3001F137D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,6 +1006,104 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXRezBuildPhase section */
+		2C6714BD1AD4AD17004A2ABD /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6714CC1AD4B16A004A2ABD /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C46A1AD5CCA1007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4791AD5CCF0007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4881AD5CD24007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4971AD5CD7E007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4A61AD5CDB9007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4B51AD5CDE9007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4C41AD5CE2B007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4D31AD5CE63007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4E21AD5CEB8007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4F11AD5CEF5007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C5001AD5D0D3007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C50F1AD5D0F9007C4A94 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CCD1F7D1A9CCBB3001F137D /* Rez */ = {
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,6 +1114,118 @@
 /* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2C6714B81AD4AD17004A2ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6714B91AD4AD17004A2ABD /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6714C71AD4B16A004A2ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6714C81AD4B16A004A2ABD /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4651AD5CCA1007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4661AD5CCA1007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4741AD5CCF0007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4751AD5CCF0007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4831AD5CD24007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4841AD5CD24007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4921AD5CD7E007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4931AD5CD7E007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4A11AD5CDB9007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4A21AD5CDB9007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4B01AD5CDE9007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4B11AD5CDE9007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4BF1AD5CE2B007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4C01AD5CE2B007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4CE1AD5CE63007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4CF1AD5CE63007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4DD1AD5CEB8007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4DE1AD5CEB8007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4EC1AD5CEF5007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4ED1AD5CEF5007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C4FB1AD5D0D3007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C4FC1AD5D0D3007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C84C50A1AD5D0F9007C4A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C84C50B1AD5D0F9007C4A94 /* ep.catch.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CCD1F4C1A9CCBB3001F137D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,6 +1237,76 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2C84C45E1AD5CC95007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6714B41AD4AD17004A2ABD /* <> */;
+			targetProxy = 2C84C45D1AD5CC95007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C4601AD5CC95007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C6714C31AD4B16A004A2ABD /* >< */;
+			targetProxy = 2C84C45F1AD5CC95007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C5161AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C4611AD5CCA1007C4A94 /* ep.decide */;
+			targetProxy = 2C84C5151AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C5181AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C4701AD5CCF0007C4A94 /* ep.midside~ */;
+			targetProxy = 2C84C5171AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C51A1AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C47F1AD5CD24007C4A94 /* ep.multisplit */;
+			targetProxy = 2C84C5191AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C51C1AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C48E1AD5CD7E007C4A94 /* ep.pan~ */;
+			targetProxy = 2C84C51B1AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C51E1AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C49D1AD5CDB9007C4A94 /* ep.polyinstance */;
+			targetProxy = 2C84C51D1AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C5201AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C4AC1AD5CDE9007C4A94 /* ep.randmetro */;
+			targetProxy = 2C84C51F1AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C5221AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C4BB1AD5CE2B007C4A94 /* ep.random */;
+			targetProxy = 2C84C5211AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C5241AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C4CA1AD5CE63007C4A94 /* ep.randout */;
+			targetProxy = 2C84C5231AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C5261AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C4D91AD5CEB8007C4A94 /* ep.scale */;
+			targetProxy = 2C84C5251AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C5281AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C4E81AD5CEF5007C4A94 /* ep.screensplit */;
+			targetProxy = 2C84C5271AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C52A1AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C4F71AD5D0D3007C4A94 /* ep.selector~ */;
+			targetProxy = 2C84C5291AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
+		2C84C52C1AD5D14A007C4A94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C84C5061AD5D0F9007C4A94 /* ep.xfade~ */;
+			targetProxy = 2C84C52B1AD5D14A007C4A94 /* PBXContainerItemProxy */;
+		};
 		2C9B3C991A9E802F00E6921E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2CCD1F291A9CCBB3001F137D /* ep.catch */;
@@ -223,6 +1315,1322 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2C6714BF1AD4AD17004A2ABD /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C6714C01AD4AD17004A2ABD /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C6714CE1AD4B16A004A2ABD /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C6714CF1AD4B16A004A2ABD /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C46C1AD5CCA1007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C46D1AD5CCA1007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C47B1AD5CCF0007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C47C1AD5CCF0007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C48A1AD5CD24007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C48B1AD5CD24007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C4991AD5CD7E007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C49A1AD5CD7E007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C4A81AD5CDB9007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C4A91AD5CDB9007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C4B71AD5CDE9007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C4B81AD5CDE9007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C4C61AD5CE2B007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C4C71AD5CE2B007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C4D51AD5CE63007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C4D61AD5CE63007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C4E41AD5CEB8007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C4E51AD5CEB8007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C4F31AD5CEF5007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C4F41AD5CEF5007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C5021AD5D0D3007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C5031AD5D0D3007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
+		2C84C5111AD5D0F9007C4A94 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Development;
+		};
+		2C84C5121AD5D0F9007C4A94 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE9332C196EB7A30079A368 /* EpToolsLibraryMax.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = $DSTROOT;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				GCC_ENABLE_KERNEL_DEVELOPMENT = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_FEEDBACK_DIRECTED_OPTIMIZATION = GenerateProfile;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DENORM_WANT_FIX = 1\"",
+					"\"NO_TRANSLATION_SUPPORT = 1\"",
+				);
+				GCC_UNROLL_LOOPS = YES;
+				GCC_USE_INDIRECT_FUNCTION_CALLS = YES;
+				GCC_USE_REGISTER_FUNCTION_CALLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INSTALL_PATH = /;
+				LIBRARY_SEARCH_PATHS = "";
+				LLVM_LTO = YES;
+				OTHER_LDFLAGS = "\"$(C74_SYM_LINKER_FLAGS)\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/include /Developer/usr/include";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Deployment;
+		};
 		2C9B3C961A9E7F7700E6921E /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -380,6 +2788,132 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C6714BE1AD4AD17004A2ABD /* Build configuration list for PBXNativeTarget "<>" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6714BF1AD4AD17004A2ABD /* Development */,
+				2C6714C01AD4AD17004A2ABD /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C6714CD1AD4B16A004A2ABD /* Build configuration list for PBXNativeTarget "><" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C6714CE1AD4B16A004A2ABD /* Development */,
+				2C6714CF1AD4B16A004A2ABD /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C46B1AD5CCA1007C4A94 /* Build configuration list for PBXNativeTarget "ep.decide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C46C1AD5CCA1007C4A94 /* Development */,
+				2C84C46D1AD5CCA1007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C47A1AD5CCF0007C4A94 /* Build configuration list for PBXNativeTarget "ep.midside~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C47B1AD5CCF0007C4A94 /* Development */,
+				2C84C47C1AD5CCF0007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C4891AD5CD24007C4A94 /* Build configuration list for PBXNativeTarget "ep.multisplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C48A1AD5CD24007C4A94 /* Development */,
+				2C84C48B1AD5CD24007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C4981AD5CD7E007C4A94 /* Build configuration list for PBXNativeTarget "ep.pan~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C4991AD5CD7E007C4A94 /* Development */,
+				2C84C49A1AD5CD7E007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C4A71AD5CDB9007C4A94 /* Build configuration list for PBXNativeTarget "ep.polyinstance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C4A81AD5CDB9007C4A94 /* Development */,
+				2C84C4A91AD5CDB9007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C4B61AD5CDE9007C4A94 /* Build configuration list for PBXNativeTarget "ep.randmetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C4B71AD5CDE9007C4A94 /* Development */,
+				2C84C4B81AD5CDE9007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C4C51AD5CE2B007C4A94 /* Build configuration list for PBXNativeTarget "ep.random" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C4C61AD5CE2B007C4A94 /* Development */,
+				2C84C4C71AD5CE2B007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C4D41AD5CE63007C4A94 /* Build configuration list for PBXNativeTarget "ep.randout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C4D51AD5CE63007C4A94 /* Development */,
+				2C84C4D61AD5CE63007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C4E31AD5CEB8007C4A94 /* Build configuration list for PBXNativeTarget "ep.scale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C4E41AD5CEB8007C4A94 /* Development */,
+				2C84C4E51AD5CEB8007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C4F21AD5CEF5007C4A94 /* Build configuration list for PBXNativeTarget "ep.screensplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C4F31AD5CEF5007C4A94 /* Development */,
+				2C84C4F41AD5CEF5007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C5011AD5D0D3007C4A94 /* Build configuration list for PBXNativeTarget "ep.selector~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C5021AD5D0D3007C4A94 /* Development */,
+				2C84C5031AD5D0D3007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		2C84C5101AD5D0F9007C4A94 /* Build configuration list for PBXNativeTarget "ep.xfade~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C84C5111AD5D0F9007C4A94 /* Development */,
+				2C84C5121AD5D0F9007C4A94 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
 		2C9B3C951A9E7F7700E6921E /* Build configuration list for PBXAggregateTarget "EpToolsLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
