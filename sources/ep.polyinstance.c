@@ -45,7 +45,7 @@ void polyinstance_getpoly(t_polyinstance *x);
 //////////////////////// global class pointer variable
 void *polyinstance_class;
 
-int main(void)
+int C74_EXPORT main(void)
 {	
 	t_class *c;
 		

@@ -48,7 +48,7 @@ t_class *close_class;		// global pointer to the object class - so max can refere
 
 //--------------------------------------------------------------------------
 
-int main(void)
+int C74_EXPORT main(void)
 {
 	t_class *c;
 	

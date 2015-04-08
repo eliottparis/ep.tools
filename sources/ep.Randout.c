@@ -38,7 +38,7 @@ void Randout_assist(t_Randout *x, void *b, long m, long a, char *s);
 void *Randout_class;
 
 
-int main(void)
+int C74_EXPORT main(void)
 {	
 	t_class *c;
 	

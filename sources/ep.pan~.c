@@ -56,7 +56,7 @@ void pan_list(t_pan *x, t_symbol *s, long ac, t_atom *av);
 void pan_dsp(t_pan *x, t_signal **sp, short *count);
 void pan_assist(t_pan *x, void *b, long m, long a, char *s);
 
-int main(void)
+int C74_EXPORT main(void)
 {
     t_class *c;
 

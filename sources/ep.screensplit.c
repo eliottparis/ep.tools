@@ -54,7 +54,7 @@ void screensplit_assist(t_screensplit *x, void *b, long m, long a, char *s);
 void *screensplit_class;
 
 
-int main(void)
+int C74_EXPORT main(void)
 {	
 	t_class *c;
 	

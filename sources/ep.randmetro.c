@@ -37,7 +37,7 @@ void clock_function(t_randmetro *x);
 void *randmetro_class;				// Required. Global pointing to this class
 
 
-int main(void) {
+int C74_EXPORT main(void) {
 	
 	t_class *c;
 	

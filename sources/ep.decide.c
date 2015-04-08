@@ -46,7 +46,7 @@ short decide_decideFunction(t_decide *x);
 void *decide_class;
 
 
-int main(void)
+int C74_EXPORT main(void)
 {	
 	t_class *c;
 	

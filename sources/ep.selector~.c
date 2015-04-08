@@ -57,7 +57,7 @@ void ep_selector_dsp_free(t_ep_selector *x);
 
 void *ep_selector_class;
 
-int main(void)
+int C74_EXPORT main(void)
 {
 	t_class *c;
 	

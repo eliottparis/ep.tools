@@ -57,7 +57,7 @@ void xfade_list(t_xfade *x, t_symbol *s, long ac, t_atom *av);
 void xfade_dsp(t_xfade *x, t_signal **sp, short *count);
 void xfade_assist(t_xfade *x, void *b, long m, long a, char *s);
 
-int main(void)
+int C74_EXPORT main(void)
 {
     t_class *c;
 

@@ -57,7 +57,7 @@ void midside_int(t_midside *x, long n);
 void midside_dsp(t_midside *x, t_signal **sp, short *count);
 void midside_assist(t_midside *x, void *b, long m, long a, char *s);
 
-int main(void)
+int C74_EXPORT main(void)
 {
     t_class *c;
 
