@@ -72,14 +72,15 @@ int C74_EXPORT main(void)
 	class_register(CLASS_BOX, c);
 	catch_class = c;
 
-	post("catch object by Eliott Paris, v. Beta 05/11",0);	// message au chargement de la classe.
+	post("catch object by Eliott Paris");
 	return 0;
 }
 
 
 //--------------------------------------------------------------------------  Catch New Function :
 
-void *catch_new(double tol, double sto) // tol = 1er float (A_DEFFLOAT) tape comme arg de l'objet, sto = 2eme. (0 si pas tape).
+// tol = 1er float (A_DEFFLOAT) tape comme arg de l'objet, sto = 2eme. (0 si pas tape).
+void *catch_new(double tol, double sto)
 {
 	t_catch *x;				// local variable (pointer to a t_catch data structure)
 

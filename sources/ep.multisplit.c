@@ -37,8 +37,7 @@ void *multisplit_new(t_symbol *s, long argc, t_atom *argv);
 void multisplit_free(t_multisplit *x);
 void multisplit_assist(t_multisplit *x, void *b, long m, long a, char *s);
 
-//////////////////////// global class pointer variable
-void *multisplit_class;
+t_class *multisplit_class;
 
 
 int C74_EXPORT main(void)
@@ -60,7 +59,6 @@ int C74_EXPORT main(void)
 	class_register(CLASS_BOX, c); /* CLASS_NOBOX */
 	multisplit_class = c;
 
-	post("multisplit object "__DATE__" by Eliott Paris");
 	return 0;
 }
 

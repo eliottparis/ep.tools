@@ -12,7 +12,7 @@
 
 typedef struct _randmetro {	// data structure for this object
 	t_object	m_ob;		// must always be the first field; used by Max
-	void *m_clock;			// pointer to clock object
+	t_clock     *m_clock;			// pointer to clock object
 	long m_interval;		// tempo in milliseconds
 	long m_Min;				// Min Interval
 	long m_Max;				// Max Interval
@@ -22,6 +22,7 @@ typedef struct _randmetro {	// data structure for this object
 	void *m_time_outlet;	// pointers to time outlet
 } t_randmetro;
 
+t_class *randmetro_class;
 
 void *randmetro_new(long Min, long Max);
 void randmetro_int(t_randmetro *x, long togval);
@@ -34,7 +35,6 @@ void randmetro_stop(t_randmetro *x);
 void randmetro_start(t_randmetro *x);
 void randmetro_newRandInterval(t_randmetro *x);
 void clock_function(t_randmetro *x);
-void *randmetro_class;				// Required. Global pointing to this class
 
 
 int C74_EXPORT main(void) {
@@ -57,7 +57,7 @@ int C74_EXPORT main(void) {
 	class_register(CLASS_BOX, c); /* CLASS_NOBOX */
 	randmetro_class = c;
 	
-	post("ep.randmetro object "__DATE__" by Eliott Paris");
+	post("ep.randmetro object by Eliott Paris");
 	
 	return 0;
 }
@@ -66,8 +66,7 @@ int C74_EXPORT main(void) {
 
 void *randmetro_new(long Min, long Max)
 {
-	t_randmetro *x;
-	x = (t_randmetro *)object_alloc(randmetro_class);	// create the new instance and return a pointer to it
+	t_randmetro *x = (t_randmetro *)object_alloc(randmetro_class);
 	
 	if (Min == 0 && Max == 0) {					// si 0 arg ou si "0 0" args
 		x->m_Min = x->m_Max = DEFAULT_TEMPO;
@@ -99,7 +98,7 @@ void *randmetro_new(long Min, long Max)
 	}
 
 	
-	x->m_clock = clock_new(x, (method)clock_function); // create the metronome clock
+	x->m_clock = (t_clock*)clock_new(x, (method)clock_function); // create the metronome clock
 	intin(x, 2);
 	intin(x, 1);					// create the right inlet
 	x->m_time_outlet = intout(x);	// create right outlet for time
@@ -182,14 +181,16 @@ void randmetro_stop(t_randmetro *x)
 void randmetro_newRandInterval(t_randmetro *x)
 {
 	long randvalue;
-	if (x->m_Max > x->m_Min) {
+	if (x->m_Max > x->m_Min)
+    {
 		randvalue = rand()%((x->m_Max +1) - x->m_Min) + x->m_Min;
 	}
-	else if (x->m_Max < x->m_Min) {
+	else if (x->m_Max < x->m_Min)
+    {
 		randvalue = rand()%((x->m_Min +1) - x->m_Max) + x->m_Max;
 	}
+    
 	x->m_interval = randvalue;
-	//post("randvalue = %ld", randvalue);
 }
 
 /***********************************************************************************/

@@ -12,7 +12,7 @@ like standard Max distrib decide Object but add probability function (right inle
 
 //////////////////////////
 
-#include "../EP_EXTERNS.h"
+#include "EP_EXTERNS.h"
 #define OBJECT_NAME "ep.decide"
 
 ////////////////////////// object struct
@@ -43,7 +43,7 @@ void decide_inletinfo(t_decide *x, void *b, long index, char *t);
 short decide_decideFunction(t_decide *x);
 
 //////////////////////// global class pointer variable
-void *decide_class;
+t_class *decide_class;
 
 
 int C74_EXPORT main(void)
@@ -69,7 +69,6 @@ int C74_EXPORT main(void)
 	class_register(CLASS_BOX, c); /* CLASS_NOBOX */
 	decide_class = c;
 
-	post("%s %s", OBJECT_NAME, EP_EXTERNS_MSG);
 	return 0;
 }
 

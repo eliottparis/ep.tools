@@ -14,10 +14,10 @@ Randout
 ////////////////////////// object struct
 typedef struct _Randout 
 {
-	t_object					ob;			// the object itself (must be first)
-	long m_numIn, m_numOut;					// nombre d'inlet, et d'outlet.
-	void *m_proxy[4];							// proxy.
-	void *m_out[4];							// outlet 1 = x->m_out[0], outlet 2 = x->m_out[1]... (prkoi [4] ? je ne sais pas !!)
+	t_object	ob;
+	long m_numIn, m_numOut;
+	void *m_proxy[4];
+	void *m_out[4];
 	void *out0;								// outlet 1.
 } t_Randout;
 
@@ -35,7 +35,7 @@ void Randout_free(t_Randout *x);
 void Randout_assist(t_Randout *x, void *b, long m, long a, char *s);
 
 //////////////////////// global class pointer variable
-void *Randout_class;
+t_class *Randout_class;
 
 
 int C74_EXPORT main(void)
@@ -56,8 +56,7 @@ int C74_EXPORT main(void)
 	
 	class_register(CLASS_BOX, c); /* CLASS_NOBOX */
 	Randout_class = c;
-
-	post("Randout object "__DATE__"");
+    
 	return 0;
 }
 

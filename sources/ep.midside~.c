@@ -16,10 +16,8 @@
 #include "ext_obex.h"
 #include "z_dsp.h"
 
-#include "../EP_EXTERNS.h"
+#include "EP_EXTERNS.h"
 #define OBJECT_NAME "ep.midside~"
-
-void *midside_class;
 
 typedef struct _midside
 {
@@ -43,6 +41,8 @@ typedef struct _midside
 	t_int x_Rcon; // Right connected ?
 	
 } t_midside;
+
+t_class *midside_class;
 
 void *midside_new(double val);
 t_int *offset_perform(t_int *w);
@@ -74,9 +74,7 @@ int C74_EXPORT main(void)
 
 	class_register(CLASS_BOX, c);
 	midside_class = c;
-	
-	post("%s %s", OBJECT_NAME, EP_EXTERNS_MSG);
-	
+		
 	return 0;
 }
 
@@ -106,7 +104,7 @@ void midside_assist(t_midside *x, void *b, long m, long a, char *s)
 
 void *midside_new(double val)
 {
-    t_midside *x = object_alloc(midside_class);
+    t_midside *x = (t_midside *)object_alloc(midside_class);
     dsp_setup((t_pxobject *)x,2);					// set up DSP for the instance and create 2 signal inlets
 	outlet_new((t_pxobject *)x, "signal");
     outlet_new((t_pxobject *)x, "signal");			// signal outlets are created like this
@@ -229,7 +227,7 @@ t_int *midside2_perform(t_int *w)						// our perform method if both signal inle
 	double SideSig;
 
 	if (*(long *)(w[1]))
-	    goto out;
+	    return (w+8);
 
 	t_midside *x = (t_midside *)(w[2]);
 	inL = (t_float *)(w[3]);
@@ -261,8 +259,6 @@ t_int *midside2_perform(t_int *w)						// our perform method if both signal inle
 		inL++;
 		inR++;
 	}
-	
-out:
 	
 	return (w+8);
 }		

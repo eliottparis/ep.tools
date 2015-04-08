@@ -15,7 +15,7 @@
 #include "ext_obex.h"				// required for new style Max object
 #include "jpatcher_api.h"
 
-#include "../EP_EXTERNS.h"
+#include "EP_EXTERNS.h"
 #define OBJECT_NAME "ep.polyinstance"
 
 ////////////////////////// object struct
@@ -32,8 +32,8 @@ typedef struct _polyinstance
 	long		a_index;
 } t_polyinstance;
 
-///////////////////////// function prototypes
-//// standard set
+t_class *polyinstance_class;
+
 void *polyinstance_new(t_symbol *s, long argc, t_atom *argv);
 void polyinstance_free(t_polyinstance *x);
 void polyinstance_assist(t_polyinstance *x, void *b, long m, long a, char *s);
@@ -41,9 +41,6 @@ void polyinstance_notify(t_polyinstance *x, t_symbol *s, t_symbol *msg, void *se
 //// additional methods
 void polyinstance_bang(t_polyinstance *x); // incoming bang message
 void polyinstance_getpoly(t_polyinstance *x);
-
-//////////////////////// global class pointer variable
-void *polyinstance_class;
 
 int C74_EXPORT main(void)
 {	
@@ -60,7 +57,6 @@ int C74_EXPORT main(void)
 	class_register(CLASS_BOX, c);
 	polyinstance_class = c;
 
-	post("%s %s", OBJECT_NAME, EP_EXTERNS_MSG);
 	return 0;
 }
 
@@ -192,8 +188,8 @@ void polyinstance_getpoly(t_polyinstance *x)
 	
 	// get the object's parent patcher
 	err = object_obex_lookup(x, gensym("#P"), (t_object **)&jp);
-	if (err == MAX_ERR_NONE){
-		
+	if (err == MAX_ERR_NONE)
+    {
 		retest :
 		// some kind of patcher in a box
 		if (jbx = jpatcher_get_box(jp)) {			// si c'est de type boite (pas poly)
@@ -251,10 +247,10 @@ void polyinstance_getpoly(t_polyinstance *x)
 
 void *polyinstance_new(t_symbol *s, long argc, t_atom *argv)
 {
-	t_polyinstance *x = NULL;
+	t_polyinstance *x = (t_polyinstance *)object_alloc(polyinstance_class);
 	    
-	if (x = (t_polyinstance *)object_alloc(polyinstance_class)) {
-		
+	if (x)
+    {
 		attr_args_process(x, argc, argv);		// regarde si des args sont passe a l'objet (on cherche @auto)
 		
 		//post("Auto : %ld", x->a_auto);

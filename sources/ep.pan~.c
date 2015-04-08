@@ -13,12 +13,10 @@
 #include "ext_obex.h"
 #include "z_dsp.h"
 
-#include "../EP_EXTERNS.h"
+#include "EP_EXTERNS.h"
 #define OBJECT_NAME "ep.pan~"
 
 #define FADETIME_INIT 20
-
-void *pan_class;
 
 typedef struct _pan
 {
@@ -40,6 +38,8 @@ typedef struct _pan
 	t_int x_Lcon; // Left connected ?
 	
 } t_pan;
+
+t_class *pan_class;
 
 void *pan_new(double val);
 t_int *offset_perform(t_int *w);
@@ -72,9 +72,7 @@ int C74_EXPORT main(void)
 
 	class_register(CLASS_BOX, c);
 	pan_class = c;
-	
-	post("%s %s", OBJECT_NAME, EP_EXTERNS_MSG);
-	
+		
 	return 0;
 }
 
@@ -104,7 +102,7 @@ void pan_assist(t_pan *x, void *b, long m, long a, char *s)
 
 void *pan_new(double val)
 {
-    t_pan *x = object_alloc(pan_class);
+    t_pan *x = (t_pan*)object_alloc(pan_class);
     dsp_setup((t_pxobject *)x,1);					// set up DSP for the instance and create 2 signal inlets
     outlet_new((t_pxobject *)x, "signal");			// signal outlets are created like this
 	outlet_new((t_pxobject *)x, "signal");
@@ -213,7 +211,7 @@ t_int *offset_perform(t_int *w)						// our perform method if both signal inlets
 	//int i = 0;
 	
 	if (*(long *)(w[1]))
-	    goto out;
+	    return (w+6);
 	
 	t_pan *x = (t_pan *)(w[2]);
 	outL = (t_float *)(w[3]);
@@ -225,8 +223,6 @@ t_int *offset_perform(t_int *w)						// our perform method if both signal inlets
 		*outL++ = 0.0;
 	}
 	
-out:
-
 	return (w+6);
 }
 
@@ -237,19 +233,13 @@ t_int *pan_perform(t_int *w)						// our perform method if both signal inlets ar
 	int i = 0;
 
 	if (*(long *)(w[1]))
-	    goto out;
+	    return (w+7);
 
 	t_pan *x = (t_pan *)(w[2]);
 	inL = (t_float *)(w[3]);
 	outL = (t_float *)(w[4]);
 	outR = (t_float *)(w[5]);
 	n = (int)(w[6]);
-	
-	/*
-	if (x->x_Lcon == 0){
-	    goto out;
-	}
-	*/
 	
 	for (i=0; i<n; i++, outL++, outR++) {
 		
@@ -274,8 +264,6 @@ t_int *pan_perform(t_int *w)						// our perform method if both signal inlets ar
 	if ((x->x_LSampsToFade <= 0) && (x->x_RSampsToFade <= 0)) {
 		setFadeTime(x, FADETIME_INIT);
 	}
-	
-out:
 	
 	return (w+7);
 }		

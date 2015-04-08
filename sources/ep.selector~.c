@@ -20,8 +20,6 @@
 #define CS_LINEAR (0)
 #define CS_POWER (1)
 
-void *ep_selector_class;
-
 typedef struct _ep_selector
 {
 	t_pxobject x_obj;
@@ -42,8 +40,6 @@ typedef struct _ep_selector
 	int inlet_count;
 } t_ep_selector;
 
-
-
 void *ep_selector_new(t_symbol *s, int argc, t_atom *argv);
 
 t_int *ep_selector_perform(t_int *w);
@@ -55,7 +51,7 @@ void ep_selector_int(t_ep_selector *x, t_int i);
 void ep_selector_channel(t_ep_selector *x, double i);
 void ep_selector_dsp_free(t_ep_selector *x);
 
-void *ep_selector_class;
+t_class *ep_selector_class;
 
 int C74_EXPORT main(void)
 {
@@ -73,7 +69,8 @@ int C74_EXPORT main(void)
 	class_dspinit(c);				// new style object version of dsp_initclass();
 	class_register(CLASS_BOX, c);	// register class as a box class
 	ep_selector_class = c;
-	post("%s %s",OBJECT_NAME, EP_EXTERNALS_MSG);
+    
+    post("ep.selector~ object by Eliott Paris");
 	
 	return 0;
 }
@@ -95,10 +92,10 @@ void ep_selector_assist (t_ep_selector *x, void *b, long msg, long a, char *s)
 void *ep_selector_new(t_symbol *s, int argc, t_atom *argv)
 {
 	int i;
-	t_ep_selector *x = NULL;
+	t_ep_selector *x = (t_ep_selector *)object_alloc(ep_selector_class);
 	
-	if (x = (t_ep_selector *)object_alloc(ep_selector_class)) {
-		
+	if (x)
+    {
 		x->fadetime = 0.05;
 		x->inlet_count = 2;
 		if(argc >= 1){

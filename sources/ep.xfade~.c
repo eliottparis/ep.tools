@@ -13,12 +13,10 @@
 #include "ext_obex.h"
 #include "z_dsp.h"
 
-#include "../EP_EXTERNS.h"
+#include "EP_EXTERNS.h"
 #define OBJECT_NAME "ep.xfade~"
 
 #define FADETIME_INIT 5
-
-void *xfade_class;
 
 typedef struct _xfade
 {
@@ -41,6 +39,8 @@ typedef struct _xfade
 	t_int x_Rcon; // Right connected ?
 	
 } t_xfade;
+
+t_class *xfade_class;
 
 void *xfade_new(double val);
 t_int *offset_perform(t_int *w);
@@ -74,7 +74,7 @@ int C74_EXPORT main(void)
 	class_register(CLASS_BOX, c);
 	xfade_class = c;
 	
-	post("%s %s", OBJECT_NAME, EP_EXTERNS_MSG);
+	post("xfade~ object by Eliott Paris");
 	
 	return 0;
 }
@@ -102,7 +102,7 @@ void xfade_assist(t_xfade *x, void *b, long m, long a, char *s)
 
 void *xfade_new(double val)
 {
-    t_xfade *x = object_alloc(xfade_class);
+    t_xfade *x = (t_xfade*)object_alloc(xfade_class);
     dsp_setup((t_pxobject *)x,2);					// set up DSP for the instance and create 2 signal inlets
     outlet_new((t_pxobject *)x, "signal");			// signal outlets are created like this
 	
@@ -255,7 +255,7 @@ t_int *xfade2_perform(t_int *w)						// our perform method if both signal inlets
 	int i = 0;
 
 	if (*(long *)(w[1]))
-	    goto out;
+	    return (w+7);
 
 	t_xfade *x = (t_xfade *)(w[2]);
 	inL = (t_float *)(w[3]);
@@ -263,8 +263,8 @@ t_int *xfade2_perform(t_int *w)						// our perform method if both signal inlets
 	outL = (t_float *)(w[5]);
 	n = (int)(w[6]);
 	
-	for (i=0; i<n; i++, outL++) {
-		
+	for (i=0; i<n; i++, outL++)
+    {
 		if (x->x_RSampsToFade > 0) {
 			
 			x->x_RValue = ( x->x_RFromValue + (x->x_RSmoothFactor * (x->x_fadeSamps - x->x_RSampsToFade) ) );
@@ -283,11 +283,10 @@ t_int *xfade2_perform(t_int *w)						// our perform method if both signal inlets
 		inR++;
 	}
 	
-	if ((x->x_LSampsToFade <= 0) && (x->x_RSampsToFade <= 0)) {
+	if ((x->x_LSampsToFade <= 0) && (x->x_RSampsToFade <= 0))
+    {
 		setFadeTime(x, FADETIME_INIT);
 	}
-	
-out:
 	
 	return (w+7);
 }		

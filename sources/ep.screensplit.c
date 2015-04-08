@@ -30,7 +30,8 @@ typedef struct _screensplit
 	t_atom m_listOut2[1024];				// liste outlet 2 (matrice 0 1).
 	long m_argLen;							// Nbr d'args passes a l'objet.
 	void *m_proxy[8];						// proxy.
-	void *m_out[3];							// outlet 1 = x->m_out[0], outlet 2 = x->m_out[1]... ([128] = Maximum out sinon bad object quand freed !!)
+	void *m_out[3];
+    
 } t_screensplit;
 
 ///////////////////////// function prototypes
@@ -51,7 +52,7 @@ void screensplit_free(t_screensplit *x);
 void screensplit_assist(t_screensplit *x, void *b, long m, long a, char *s);
 
 //////////////////////// global class pointer variable
-void *screensplit_class;
+t_class *screensplit_class;
 
 
 int C74_EXPORT main(void)
@@ -68,10 +69,10 @@ int C74_EXPORT main(void)
 	/* you CAN'T call this from the patcher */
     class_addmethod(c, (method)screensplit_assist,		"assist",	A_CANT,		0);  
 	
-	class_register(CLASS_BOX, c); /* CLASS_NOBOX */
+	class_register(CLASS_BOX, c);
 	screensplit_class = c;
 
-	post("screensplit object "__DATE__" by Eliott Paris");
+	post("screensplit object by Eliott Paris");
 	return 0;
 }
 
