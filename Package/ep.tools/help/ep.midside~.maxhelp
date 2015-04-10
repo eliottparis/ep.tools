@@ -489,7 +489,7 @@
 										"loopend" : [ 0.0, "ms" ],
 										"loopstart" : [ 0.0, "ms" ],
 										"mode" : "basic",
-										"originallength" : [ 95.999998, "ticks" ],
+										"originallength" : [ 6.641566, "ticks" ],
 										"originaltempo" : 8.301958,
 										"phase" : [ 0.0, "ticks" ],
 										"pitchcorrection" : 0,

@@ -4,19 +4,14 @@
 // WARRANTIES, see the file, "LICENSE.txt," in this distribution.
 
 /**
-
- simple MSP Object who deals with Middle-Side formula.
- 
+ Middle-Side Encoding object.
  Middle = (L + R) / 2
  Side = (L - R) / 2
- 
- */
+*/
 
 #include "ext.h"
 #include "ext_obex.h"
 #include "z_dsp.h"
-
-#include "EP_EXTERNS.h"
 
 typedef struct _midside
 {

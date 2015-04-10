@@ -3,35 +3,32 @@
 // For information on usage and redistribution, and for a DISCLAIMER OF ALL
 // WARRANTIES, see the file, "LICENSE.txt," in this distribution.
 
-/*******************************************************************************************************************
- *																												   *
- *								PARIS ELIOTT 2eme external Max : <> (05/11)										  *
- *									- - - - - - - - - - - - - - - - -											 *
- *				>< est semblable à l'objet "==" mais avec une tolerance => (a peu pres egal)					  *
- *																												   *
- ********************************************************************************************************************
+/*
+ 
+ >< est semblable à l'objet "==" mais avec une tolerance => (a peu pres egal)
  
  formule implementee :
  
- $f3 = 1.27  tolerance  /  $f1 = Left  /  $f2 = Right value :
+ if ($f1 <= $f2 && $f1 >= ($f2 - $f3)) || ($f1 >= $f2 && $f1 <= ($f2 + $f3)) then 1 else 0
  
- if ( $f1 <= $f2 && $f1 >= ($f2 - $f3 ) ) || ( $f1 >= $f2 && $f1 <= ( $f2 + $f3 ) ) then 1 else 0
+ $f1 = Left / $f2 = Right value / $f3 : tolerance
  
- *******************************************************************************************/
+*/
 
 #include "ext.h"
 #include "ext_obex.h"
 
-typedef struct _close {	// definition de variables pour toutes les instances de l'objet dans le patch.
-	t_object p_ob;			// object header.
-	double a_tolerance;		// float : range arround Right.
-	double a_Left;			// float : Left Value.
-	double a_Right;			// float : Right Value.
-	void *a_outlet;			// pointeur => outlet0.
+typedef struct _close
+{
+	t_object p_ob;
+	double a_tolerance;
+	double a_Left;
+	double a_Right;
+	void *a_outlet;
 } t_close;
 
+t_class *close_class;
 
-// prototypes pour les methodes definies plus bas :
 void close_bang(t_close *x);					// bang recu dans inlet gauche.
 void close_int(t_close *x, long Left);				// int recu dans inlet gauche.
 void close_float(t_close *x, double Left);			// float recu dans inlet gauche.
@@ -41,10 +38,6 @@ void close_setTolerance(t_close *x, double tol);// modifie la valeur de toleranc
 
 void close_assist(t_close *x, void *b, long m, long a, char *s);
 void *close_new(double Right, double Tol);
-
-
-t_class *close_class;		// global pointer to the object class - so max can reference the object 
-
 
 //--------------------------------------------------------------------------
 
