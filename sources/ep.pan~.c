@@ -13,7 +13,7 @@
 #include "ext_obex.h"
 #include "z_dsp.h"
 
-#include "EP_EXTERNS.h"
+#include "ep.tools.h"
 #define OBJECT_NAME "ep.pan~"
 
 #define FADETIME_INIT 20

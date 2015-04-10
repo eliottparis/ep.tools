@@ -15,7 +15,7 @@
 #include "ext_obex.h"				// required for new style Max object
 #include "jpatcher_api.h"
 
-#include "EP_EXTERNS.h"
+#include "ep.tools.h"
 #define OBJECT_NAME "ep.polyinstance"
 
 ////////////////////////// object struct

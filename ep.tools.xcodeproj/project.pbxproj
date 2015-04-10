@@ -36,47 +36,47 @@
 
 /* Begin PBXBuildFile section */
 		2C6714B11AD4A0F7004A2ABD /* ep.catch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A41AD4A0D5004A2ABD /* ep.catch.c */; };
-		2C6714B21AD4A140004A2ABD /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
-		2C6714B61AD4AD17004A2ABD /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C6714B21AD4A140004A2ABD /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
+		2C6714B61AD4AD17004A2ABD /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C6714BB1AD4AD17004A2ABD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C6714BC1AD4AD17004A2ABD /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C6714C51AD4B16A004A2ABD /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C6714C51AD4B16A004A2ABD /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C6714CA1AD4B16A004A2ABD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C6714CB1AD4B16A004A2ABD /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C4631AD5CCA1007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4631AD5CCA1007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4681AD5CCA1007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4691AD5CCA1007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C4721AD5CCF0007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4721AD5CCF0007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4771AD5CCF0007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4781AD5CCF0007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C4811AD5CD24007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4811AD5CD24007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4861AD5CD24007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4871AD5CD24007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C4901AD5CD7E007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4901AD5CD7E007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4951AD5CD7E007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4961AD5CD7E007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C49F1AD5CDB9007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C49F1AD5CDB9007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4A41AD5CDB9007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4A51AD5CDB9007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C4AE1AD5CDE9007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4AE1AD5CDE9007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4B31AD5CDE9007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4B41AD5CDE9007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C4BD1AD5CE2B007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4BD1AD5CE2B007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4C21AD5CE2B007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4C31AD5CE2B007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C4CC1AD5CE63007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4CC1AD5CE63007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4D11AD5CE63007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4D21AD5CE63007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C4DB1AD5CEB8007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4DB1AD5CEB8007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4E01AD5CEB8007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4E11AD5CEB8007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C4EA1AD5CEF5007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4EA1AD5CEF5007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4EF1AD5CEF5007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4F01AD5CEF5007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C4F91AD5D0D3007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C4F91AD5D0D3007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C4FE1AD5D0D3007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C4FF1AD5D0D3007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
-		2C84C5081AD5D0F9007C4A94 /* EP_EXTERNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */; };
+		2C84C5081AD5D0F9007C4A94 /* ep.tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C6714B01AD4A0D5004A2ABD /* ep.tools.h */; };
 		2C84C50D1AD5D0F9007C4A94 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F18A8BD17287341005FD621 /* Accelerate.framework */; };
 		2C84C50E1AD5D0F9007C4A94 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE93334196EBA530079A368 /* MaxAudioAPI.framework */; };
 		2C84C52D1AD5D51C007C4A94 /* <>.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6714A21AD4A0D5004A2ABD /* <>.c */; };
@@ -220,7 +220,7 @@
 		2C6714AD1AD4A0D5004A2ABD /* ep.scale.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ep.scale.c; sourceTree = "<group>"; };
 		2C6714AE1AD4A0D5004A2ABD /* ep.screensplit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ep.screensplit.c; sourceTree = "<group>"; };
 		2C6714AF1AD4A0D5004A2ABD /* ep.xfade~.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ep.xfade~.c"; sourceTree = "<group>"; };
-		2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EP_EXTERNS.h; sourceTree = "<group>"; };
+		2C6714B01AD4A0D5004A2ABD /* ep.tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ep.tools.h; sourceTree = "<group>"; };
 		2C6714B31AD4A91C004A2ABD /* ep.selector~.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ep.selector~.c"; sourceTree = "<group>"; };
 		2C6714C11AD4AD17004A2ABD /* <>.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "<>.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6714D01AD4B16A004A2ABD /* ><.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "><.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -419,7 +419,7 @@
 		2C6714A11AD4A0D5004A2ABD /* sources */ = {
 			isa = PBXGroup;
 			children = (
-				2C6714B01AD4A0D5004A2ABD /* EP_EXTERNS.h */,
+				2C6714B01AD4A0D5004A2ABD /* ep.tools.h */,
 				2C6714A21AD4A0D5004A2ABD /* <>.c */,
 				2C6714A31AD4A0D5004A2ABD /* ><.c */,
 				2C6714A41AD4A0D5004A2ABD /* ep.catch.c */,
@@ -446,7 +446,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6714B61AD4AD17004A2ABD /* EP_EXTERNS.h in Headers */,
+				2C6714B61AD4AD17004A2ABD /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +454,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6714C51AD4B16A004A2ABD /* EP_EXTERNS.h in Headers */,
+				2C6714C51AD4B16A004A2ABD /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +462,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C4631AD5CCA1007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C4631AD5CCA1007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +470,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C4721AD5CCF0007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C4721AD5CCF0007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +478,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C4811AD5CD24007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C4811AD5CD24007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,7 +486,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C4901AD5CD7E007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C4901AD5CD7E007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,7 +494,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C49F1AD5CDB9007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C49F1AD5CDB9007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +502,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C4AE1AD5CDE9007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C4AE1AD5CDE9007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +510,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C4BD1AD5CE2B007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C4BD1AD5CE2B007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +518,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C4CC1AD5CE63007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C4CC1AD5CE63007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,7 +526,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C4DB1AD5CEB8007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C4DB1AD5CEB8007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +534,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C4EA1AD5CEF5007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C4EA1AD5CEF5007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,7 +542,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C4F91AD5D0D3007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C4F91AD5D0D3007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +550,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C84C5081AD5D0F9007C4A94 /* EP_EXTERNS.h in Headers */,
+				2C84C5081AD5D0F9007C4A94 /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +558,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6714B21AD4A140004A2ABD /* EP_EXTERNS.h in Headers */,
+				2C6714B21AD4A140004A2ABD /* ep.tools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
