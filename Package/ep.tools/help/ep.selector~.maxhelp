@@ -583,19 +583,6 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 340.0, 148.0, 60.0, 22.0 ],
-									"style" : "",
-									"text" : "selector~"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"channels" : 1,
 									"fontface" : 0,
 									"fontsize" : 13.0,
