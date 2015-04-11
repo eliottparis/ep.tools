@@ -4,6 +4,8 @@
 
 #include "stdlib.h"
 
+#define atom_isNumber(av) (atom_gettype(av) == A_LONG || atom_gettype(av) == A_FLOAT)
+
 //**************************************************************************************
 
 // some usefull fonction, painfull to rewrite over the time (based on taptools_lib.c) :
